@@ -6,4 +6,4 @@
 
 ### Start by running 'npm start'
 
-### Check http://localhost:3000/
+### Then Check http://localhost:3000/
