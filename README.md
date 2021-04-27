@@ -1,6 +1,6 @@
 # Simple Login Register (Nodejs-MySQL-PUG)
 
-# A simple Login/Register application developed in Nodejs using Express.
+## A simple Login/Register application developed in Nodejs using Express.
 
 ## First run 'npm install'.
 
