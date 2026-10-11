@@ -4,8 +4,8 @@
   "description": "Simple Login/Register app in nodejs with mysql",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -25,14 +25,16 @@
   },
   "homepage": "https://github.com/SofianChouaib/Login-Register-Nodejs#readme",
   "dependencies": {
-    "bcrypt": "^5.0.0",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "mysql": "^2.18.1",
-    "pug": "^3.0.0",
-    "util.promisify": "^1.0.1"
+    "bcrypt": "^6.0.0",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.5",
+    "pug": "^3.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
   }
 }
